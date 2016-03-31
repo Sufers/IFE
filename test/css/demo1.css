@@ -1,0 +1,61 @@
+* 
+2 { 
+3     padding: 0; 
+4     margin: 0; 
+5 } 
+6 body 
+7 { 
+8     background:#FFF; 
+9 } 
+10 div 
+11 { 
+12     padding: 20px; 
+13     border: 1px solid #999; 
+14 } 
+15 img 
+16 { 
+17     max-width: 80px; 
+18 } 
+19 .container 
+20 { 
+21     background: #EEE; 
+22     min-width: 640px; 
+23     margin:20px 20px auto; 
+24 } 
+25 .container div 
+26 { 
+27     background: #FFF; 
+28 } 
+29 .container:after 
+30 { 
+31     content:""; 
+32     display:block; 
+33     clear:both; 
+34 } 
+35 .left_side 
+36 { 
+37     float: left; 
+38     width: 160px; 
+39 } 
+40 .left_side img 
+41 { 
+42     float:left 
+43 } 
+44 .mid_side 
+45 { 
+46     margin: 0 140px 0 220px; 
+47 } 
+48 .right_side 
+49 { 
+50     float: right; 
+51     width: 80px; 
+52 } 
+53 .right_side ul 
+54 { 
+55     list-style: none; 
+56     padding: 0 
+57 } 
+58 .right_side li 
+59 { 
+60     margin-top: 10px; 
+61 } 

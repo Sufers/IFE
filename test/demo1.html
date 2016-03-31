@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>清除浮动方法汇总1</title>
+        <style type="text/css">
+            .div1{border:1px solid red;overflow:auto;}
+            .div1:after { content: ""; display: table; clear: both; }/*清除浮动代码  值得注意的是，目前每个元素只有一个“:before”和“:after”伪类。当你尝试使用其他的“:before”和“:after”的clearfix技巧，你的内容可能无法达到想要的效果*/
+            .div2{background:#800080;border:1px solid black;height:100px;margin-top:10px}
+            .left{float:left;width:30%;height:200px;background:#DDD}
+            .middle{float:left;width:30%;height:200px;background:#C0A16B;margin: 0,auto;}
+            .right{float:right;width:30%;height:200px;background:#C0A16B}
+            /*1.结尾处加空div标签 clear:both */
+            
+}
+        </style> 
+    </head>
+    <body>
+        <div class="div1">
+            <div class="left">Left</div>
+            <div class="middle">Middle</div>
+            <div class="right">Right</div>
+
+       </div>
+        <div class="div2">
+           div2
+        </div> 
+    </body>
+</html>
