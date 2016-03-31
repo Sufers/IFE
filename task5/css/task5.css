@@ -1,0 +1,177 @@
+.contanier{
+	background-color: #999;
+	width: 95%;
+	margin-left: 2%;
+	margin-top: 2%;
+	padding: 0px;
+}
+ul li{
+  list-style: none;
+}
+li{
+	line-height: 180%;
+	font-size: 20px;
+	font-family: Arial;
+}
+h3{
+	color: #999;
+}
+h5{
+	color: #999;
+}
+
+.header{
+	background-color: #003;
+	margin-bottom: 30px;
+	height: 100px;
+}
+.header img{
+	height: 100px;
+	float: left;
+}
+.header,.footer{
+	clear: both;
+}
+.header .navbar .navbar-nav{
+	margin-right: 20px;
+}
+.header .navbar .navbar-nav li{
+	float: right; 
+ 	margin-left: 20px; 
+ 	height: 100px; 
+	line-height: 100px;  
+ 	display: inline-block; 
+
+}
+.header .navbar .navbar-nav li a{
+	text-decoration: none;
+}
+.left>div,.right{
+    background-color: #fff;
+    border:1px #ccc solid;
+
+}
+.header:after,.left>div:after,.left:after{
+	  clear: both;  
+    content: ".";    
+    display: block;    
+/*    height: 0;*/    
+/*    visibility: hidden;
+*/}
+.left{
+/*	float: left;
+*/	background-color: #999;
+	margin-right: 600px;
+	margin-left: 20px;
+/*	padding: 20px;
+*/
+}
+.left div{
+	margin-bottom: 30px;
+	padding: 20px;
+
+}
+.left div p{
+	font-size:22px; 
+	color: #000;
+	font-family: Arial;
+	line-height: 1.5;
+	text-indent: 2em;
+}
+.textbox1 img,.textbox2 img{
+	width: 50%;
+}
+.textbox3 table{
+	border: 1px #999 solid;
+	background-color: #fff;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 20px;
+}
+.textbox3 table th{
+    background-color: #000;
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 2px;
+    border: 1px #999 solid;
+    padding: 3px;
+}
+.textbox3 table td {
+    margin-bottom: 2px;
+   	border: 1px #999 solid;
+ 	padding: 3px;
+}
+
+.gallery li{
+	width: 150px;
+	float: left;
+	margin: 5px;
+	position: relative;
+	border:1px #eee solid;
+	border: 1px #eee solid;
+	padding: 5px;
+}
+.gallery li figure{
+	margin: 0;
+}
+.gallery li figure img{
+	width: 100%;
+}
+.gallery li figure figcaption span{
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.right{
+	float: right;
+	width: 500px;
+	margin:0 30px 0 0 ; 
+	padding:20px;
+}
+.right h2{
+   margin-left: 5%;
+   border-left: 5px #ccc solid;
+   padding: 5px;
+}
+.right form ul {
+	padding: 0;
+}
+
+.label-input{
+	position: relative;
+    display: inline-block;
+	width: 33%;
+	text-align: right;
+	margin-right: 25px;
+	top: 10px;  
+}
+.inputbox{
+    display: inline-block;
+    width: 240px;
+	vertical-align: text-top;
+}
+.inputbox p{
+	margin:10px 0; 
+}
+.inputbox input,.inputbox select,.inputbox textarea{
+	padding: 5px;   
+}
+
+.subm input{
+	width: 100%;
+	border-radius: 8px;
+	text-align: center;
+	height: 45px;
+	background-color: #03f;
+	margin-top: 20px;
+	color: #fff;
+}
+.footer{
+	background-color: #000;
+	color: #fff;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 22px;
+}

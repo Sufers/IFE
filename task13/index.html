@@ -18,7 +18,9 @@
         var dis=document.getElementById("aqi-display");
         var inp=document.getElementById("aqi-input");
         btn.addEventListener('click', function(){
-            if(inp.value>=0 || inp.value<0)
+            if(inp.value=="")
+                alert("请输入数值");
+            else if(inp.value>=0)
                 dis.innerHTML=inp.value;
             else
                 alert("请输入正确的数值");
